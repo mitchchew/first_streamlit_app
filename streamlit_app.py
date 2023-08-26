@@ -41,7 +41,7 @@ fruityvice_response = requests.get("https://fruityvice.com/api/fruit/" + fruit_c
 
 streamlit.header('What fruit would you like to add!')
 add_my_fruit = streamlit.text_input('What fruit would you like information about?','Kiwi')
-streamlit.write('Thanks for adding ', fruit_choice)
+streamlit.write('Thanks for adding ', add_my_fruit)
 
 import requests
 add_my_fruit = requests.get("https://fruityvice.com/api/fruit/" + fruit_choice)
