@@ -47,3 +47,5 @@ my_data_row = my_cur.fetchone()
 streamlit.text("The fruit list contains:")
 streamlit.text(my_data_row)
 
+add_my_fruit =
+
