@@ -55,3 +55,6 @@ my_cur.execute("select * from fruit_load_list")
 my_data_row = my_cur.fetchone()
 streamlit.text("The fruit list contains:")
 streamlit.text(my_data_row)
+
+#this will not work correctly but just go with it 
+my_cur.execute("insert into fruit_load_list values ('from streamlit')")
